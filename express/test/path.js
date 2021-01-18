@@ -2,7 +2,7 @@ const path = require('path')
 const fs = require('fs')
 
 console.log(__dirname)
-const pathToKey = path.resolve(".", "express", "test", 'id_rsa_priv.pem')
+const pathToKey = path.resolve(".", "express", "test", 'id_rsa_pub.pem')
 console.log(6, "path:", pathToKey)
 
 // const PUB_KEY = fs.readFileSync('/Users/kristylee/Desktop/personal-github/netlify-express/express/test/app.js', 'utf8')
