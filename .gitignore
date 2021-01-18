@@ -39,3 +39,5 @@ jspm_packages
 functions
 
 id_rsa_priv.pem
+
+.env
