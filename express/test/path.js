@@ -3,8 +3,8 @@ const fs = require('fs')
 
 console.log(__dirname)
 const pathToKey = path.resolve(".", "express", "test", 'app.js')
-console.log("path:", pathToKey)
+console.log(6, "path:", pathToKey)
 
 // const PUB_KEY = fs.readFileSync('/Users/kristylee/Desktop/personal-github/netlify-express/express/test/app.js', 'utf8')
 const PUB_KEY = fs.readFileSync(pathToKey, 'utf-8')
-console.log(PUB_KEY)
+console.log(10, PUB_KEY)
