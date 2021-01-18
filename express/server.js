@@ -21,7 +21,7 @@ app.use('/.netlify/functions/server', router);  // path must route to lambda
 
 // const {PUB_KEY} = require('./test/path')
 router.get('/hello', (req, res) => {
-  res.send(JSON.parse(process.env.PUB_KEY))
+  res.send(JSON.parse(process.env.MY_PUB_KEY))
 })
 
 module.exports = app;
